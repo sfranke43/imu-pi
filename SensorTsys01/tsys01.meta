@@ -1,0 +1,46 @@
+{
+  "0": {
+    "llType": "error",
+    "columns": [
+      {
+        "llabel": "error message",
+        "dtype": "str"
+      }
+    ]
+  },
+  "1": {
+    "llType": "data",
+    "columns": [
+      {
+        "llabel": "temperature",
+        "units": "degC",
+        "dtype": "float"
+      }
+    ]
+  },
+  "5": {
+    "llType": "rom",
+    "columns": [
+      {
+        "llabel": "k0",
+        "dtype": "int"
+      },
+      {
+        "llabel": "k1",
+        "dtype": "int"
+      },
+      {
+        "llabel": "k2",
+        "dtype": "int"
+      },
+      {
+        "llabel": "k3",
+        "dtype": "int"
+      },
+      {
+        "llabel": "k4",
+        "dtype": "int"
+      }
+    ]
+  }
+}
