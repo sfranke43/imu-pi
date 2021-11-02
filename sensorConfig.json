@@ -1,0 +1,14 @@
+[
+  {
+    "module": "SensorMs5837.myMs5837",
+    "class": "underPressure",
+    "updateFrequency": 50,
+    "measureTime": 5
+  },
+  {
+    "module": "SensorTsys01.myTsys01",
+    "class": "hotHotHot",
+    "updateFrequency": 50,
+    "measureTime": 5
+    }
+  ]
