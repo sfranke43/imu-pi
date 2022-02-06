@@ -3,7 +3,6 @@ import os
 import sys
 import threading
 import uuid
-import collections
 import time
 import struct
 import traceback
@@ -18,9 +17,9 @@ from ..message_center import DeviceMessageCenter
 from ..parser_manager import ParserManager
 
 if sys.version_info[0] > 2:
-    from queue import Queue
+    pass
 else:
-    from Queue import Queue
+    pass
 
 
 class OpenDeviceBase(EventBase):

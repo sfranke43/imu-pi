@@ -1,10 +1,10 @@
 #!/usr/bin/python
-from SensorTsys01 import tsys01
+from library.SensorTsys01 import tsys01
 import datetime
 import json
 from datetime import date
 
-class hotHotHot(object):
+class sensor_temperature(object):
     
     def init(self, updateFrequency, measureTime):
         self.sensor = tsys01.TSYS01() # Default I2C bus is 1 (Raspberry Pi 3)

@@ -1,12 +1,11 @@
 import sys
-import os
 import time
 import struct
 from .openimu.uart_provider import Provider as OpenIMUProvider
 from .openrtk.uart_provider import Provider as OpenRTKProvider
 from .dmu.uart_provider import Provider as DMUProvider
 from .dmu import dmu_helper
-from ..framework.utils import (helper, resource)
+from ..framework.utils import (helper)
 from ..framework.context import APP_CONTEXT
 
 # for DMU 'GP'

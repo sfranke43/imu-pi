@@ -1,6 +1,5 @@
 import collections
 import operator
-import struct
 from ..base.event_base import EventBase
 from ...framework.utils import helper
 from ...framework.context import APP_CONTEXT

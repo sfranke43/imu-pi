@@ -1,10 +1,10 @@
 #!/usr/bin/python
-from SensorMs5837 import ms5837
+from library.SensorMs5837 import ms5837
 import datetime
 import json
 from datetime import date
 
-class underPressure(object):
+class sensor_pressure(object):
     
     
     

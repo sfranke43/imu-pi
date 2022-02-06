@@ -1,14 +1,20 @@
 [
-  {
-    "module": "SensorMs5837.myMs5837",
-    "class": "underPressure",
+ {
+    "module": "GPS.myGPS",
+    "class": "gps",
+    "updateFrequency": 50,
+    "measureTime": 5
+ },
+ {
+    "sensor": "SensorMs5837.myMs5837",
+    "class": "sensor_pressure",
     "updateFrequency": 50,
     "measureTime": 5
   },
   {
-    "module": "SensorTsys01.myTsys01",
-    "class": "hotHotHot",
+    "sensor": "SensorTsys01.myTsys01",
+    "class": "sensor_temperature",
     "updateFrequency": 50,
-    "measureTime": 5
-    }
+    "measureTime": 50
+   }
   ]
